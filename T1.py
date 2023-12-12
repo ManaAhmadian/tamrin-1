@@ -1,0 +1,7 @@
+name = input("student name: ")
+lastname = input("student lastname: ")
+Code = input("student Code: ")
+mostamar = float(input("mark 1 : "))
+mianterm = float(input("mark 2: "))
+final = float(input("mark 3: "))
+print("Hi!student name is",name,lastname,"student code is ",Code," and avg is",(mostamar+mianterm+final)/3)
